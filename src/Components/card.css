@@ -1,0 +1,83 @@
+.tokenDisplay{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.tokenCard{
+    width:40vh;
+    height:85vh;
+    border:solid;
+    border-color:black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px; 
+    background-color:black;
+}
+.cardTitle{
+    font-size: 5vh;
+    margin-bottom: 5px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    word-break: break-word;
+    overflow-y: scroll;
+}
+.linkText{
+    color: white;
+}
+.info{
+    text-align: left;
+    margin-top: 10px;
+}
+.info-small{
+    text-align: left;
+    margin-top: 10px;
+    font-size: 3vh;
+}
+.cardSubTitle{
+    font-size: 2.5vh;
+    color: gray;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.cardInfo{
+    height:9vh;
+    font-size: 4vh;
+    color: white;
+    text-align: left;
+    margin-left: 10px;
+    padding-bottom: 2%;
+}
+.tokenImg{
+    width:30vh;
+}
+
+.summary{
+    margin: 50px;
+    padding: 10px;
+    border: solid;
+    border-radius: 10px;
+    background-color: black;
+    width: 25vh;
+    display: inline-block;
+}
+.summaryCardInfo{
+    font-size: 4vh;
+    overflow-wrap:break-word;
+    color: white;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 5px;
+} 
+
+.subText{
+    font-size: 1.3rem !important;
+    margin-bottom: 2%;
+}
+
+
+@media only screen and (min-width:1025px){
+    .summary{
+        width: 50vh;
+    }
+}
